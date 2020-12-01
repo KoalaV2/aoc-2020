@@ -9,5 +9,5 @@ for str in file.readlines():
     for numbers in integers:
         for numbers2 in integers:
             if numbers + numbers2 == 2020:
-                print(numbers * numbers2)
-
+                print("Answer: ",numbers * numbers2)
+                exit()
