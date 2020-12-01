@@ -5,7 +5,7 @@ file = open('numbers.txt', 'r')
 integers = []
 for str in file.readlines():
     integers.append(int(str))
-    print(integers)
+#    print(integers)
 for numbers in integers:
     for numbers2 in integers:
         if numbers + numbers2 == 2020:
